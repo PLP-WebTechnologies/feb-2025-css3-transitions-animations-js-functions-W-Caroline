@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Webpage</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1 id="greeting"> Welcome!</h1>
+    <p class="subtitle">Interactive Web Playground</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Personalize Greeting</h2>
+      <input type="text" id="nameInput" placeholder="Enter your name" />
+      <button id="saveNameBtn">Save Name</button>
+    </section>
+
+    <section>
+      <h2>Theme Switcher</h2>
+      <button id="toggleThemeBtn">Toggle Theme</button>
+    </section>
+
+    <section>
+      <h2> Animate the Box</h2>
+      <button id="animateBtn">Animate Box</button>
+      <div id="box"></div>
+    </section>
+
+    <section>
+      <h2> Change Box Color</h2>
+      <button id="saveColorBtn">Save Box Color</button>
+    </section>
+
+    <section>
+      <h2>🖼️ Image Animation</h2>
+      <p>Hover over the image below 👇</p>
+      <img
+        id="animatedImage"
+        src="https://images.pexels.com/photos/2014422/pexels-photo-2014422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=180"
+        alt="Nature scene"
+      />
+    </section>
+  </main>
+
+  <footer>
+    <p>My  css3 transitions and animations</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
